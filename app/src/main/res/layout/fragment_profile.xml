@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="176dp"
+        android:src="@drawable/avatar"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/nama_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hayya Fatihatuz Zahra"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:id="@+id/nim_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22/505619/SV/21940"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_light" />
+
+</LinearLayout>
